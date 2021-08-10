@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    cursor: url(images/output-onlinepngtools.png) 0 0, pointer;
+}
+
+.monitorArea div {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(194, 19, 19);
+    padding: 2rem;
+}
+
+.monitorArea img {
+    width: 75px;
+    height: 75px;
+}
+
+.gameArea {
+    width: 900px;
+    height: 400px;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.nest {
+    width: 100px;
+    height: 100px;
+}
+
+.mole {
+    width: 100px;
+    height: 100px;
+    background-image: url("images/mole.png");
+    background-size: cover;
+    background-position: center;
+}
